@@ -25,7 +25,8 @@
       "default": "./node.js"
     },
     "./package.json": "./package.json",
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./components/*.vue": "./src/components/*.vue"
   },
   "main": "src/index.ts",
   "files": [
@@ -52,7 +53,8 @@
         "node": "./dist/index.node.mjs",
         "import": "./dist/index.mjs",
         "default": "./dist/index.mjs"
-      }
+      },
+      "./components/*.vue": "./dist/components/*.vue"
     }
   },
   "scripts": {
